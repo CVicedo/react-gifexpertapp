@@ -5,7 +5,6 @@ import { GifGridItem } from './GifGridItem'
 
 
 export const GifGrid = ({category}) => {
-    debugger
 
     const {data: images, loading} = useFetchGifs( category )
 
